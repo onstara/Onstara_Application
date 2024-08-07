@@ -1,269 +1,400 @@
 {
-  "HorizonLayout": [
-    {
-      "layout": "logo",
-      "showMenu": true,
-      "showSearch": true,
-      "showLogo": true,
-      "enableBackground": true
-    },
-    {
-      "layout": "category",
-      "type": "icon",
-      "useFor": "mobile",
-      "wrap": false,
-      "size": 1.0,
-      "radius": 50.0,
-      "enableBackground": true,
-      "items": [
-        {
-          "category": "gid://shopify/Collection/444187279665",
-          "image": "https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
-          "colors": [
-            "#3CC2BF",
-            "#3CC2BF"
-          ],
-          "originalColor": false
-        },
-        {
-          "category": "gid://shopify/Collection/446745641265",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/48x58/a68d188ae063a20eac903fe2ca00ece5/ic_dress.png",
-          "colors": [
-            "#3E6AB5",
-            "#3E6AB5"
-          ]
-        },
-        {
-          "category": "gid://shopify/Collection/446745674033",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x54/93b296bf55ec19d22778158bf06d2dbc/ic_shorts.png",
-          "colors": [
-            "#53A2CC",
-            "#53A2CC"
-          ]
-        },
-        {
-          "category": "gid://shopify/Collection/446745936177",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x50/bf817e570f9d704dc88dad8bb29386d1/ic_shoes.png",
-          "colors": [
-            "#53688A",
-            "#53688A"
-          ]
-        },
-        {
-          "category": "gid://shopify/Collection/446745739569",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/72x38/8c778c1b92f5ca02e00c4a34b562c601/ic_tie.png",
-          "colors": [
-            "#43506A",
-            "#43506A"
-          ]
-        },
-        {
-          "category": "gid://shopify/Collection/446745641265",
-          "image": "https://trello-attachments.s3.amazonaws.com/60a62a9bca5053572a669dee/68x34/e20dbfd9e05fb3fbb8991d5d2213a9b0/ic_panties.png",
-          "colors": [
-            "#12B58C",
-            "#12B58C"
-          ]
-        }
-      ]
-    },
-    {
-      "layout": "bannerImage",
-      "isSlider": true,
-      "autoPlay": false,
-      "showNumber": false,
-      "design": "default",
-      "showBackGround": true,
-      "radius": 2.0,
-      "enableBackground": true,
-      "items": [
-        {
-          "category": "gid://shopify/Collection/446745674033",
-          "image": "https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
-          "padding": 15.0
-        },
-        {
-          "category": "gid://shopify/Collection/446745641265",
-          "image": "https://user-images.githubusercontent.com/1459805/60091575-1f12ca80-976f-11e9-962c-bdccff60d143.png",
-          "padding": 15.0
-        },
-        {
-          "product": "8396924911921",
-          "image": "https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
-          "padding": 15.0
-        }
-      ],
-      "itemsWeb": [
-        {
-          "category": 29,
-          "image": "https://cln.sh/41hyDrzG+",
-          "padding": 15.0
-        },
-        {
-          "category": 28,
-          "image": "https://cln.sh/5nl2ZsKG+",
-          "padding": 15.0
-        },
-        {
-          "product": 30,
-          "image": "https://cln.sh/q24Xpr1c+",
-          "padding": 15.0
-        }
-      ]
-    },
-    {
-      "layout": "bannerImage",
-      "items": [
-        {
-          "category": "gid://shopify/Collection/446745674033",
-          "image": "https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
-          "padding": 5.0
-        },
-        {
-          "category": "gid://shopify/Collection/446745674033",
-          "image": "https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
-          "padding": 5.0,
-          "featured": true
-        }
-      ]
-    },
-    {
-      "name": "Recent View",
-      "layout": "recentView"
-    },
-    {
-      "name": "Woman Collections",
-      "image": "",
-      "layout": "threeColumn",
-      "category": "gid://shopify/Collection/446745444657",
-      "isSnapping": true
-    },
-    {
-      "name": "Man Collections",
-      "image": "",
-      "layout": "twoColumn",
-      "category": "gid://shopify/Collection/444187279665",
-      "isSnapping": true
-    },
-    {
-      "name": "Recent View",
-      "layout": "recentView"
-    },
-    {
-      "name": "Our Blog Posts",
-      "layout": "blog"
-    },
-    {
-      "name": "New Collections",
-      "layout": "staggered",
-      "limit": 20,
-      "category": "gid://shopify/Collection/446745674033"
-    }
-  ],
-  "Setting": {
-    "MainColor": "#3FC1BE",
-    "ProductListLayout": "list",
-    "StickyHeader": false
+  "HorizonLayout":[
+  {
+  "iconOpacity":0,
+  "showLogo":true,
+  "showNotification":false,
+  "showBadgeCart":false,
+  "iconSpreadRadius":0,
+  "layout":"logo",
+  "iconRadius":6,
+  "logoSize":50,
+  "showMenu":true,
+  "showSearch":true,
+  "iconSize":24,
+  "showCart":false,
+  "opacity":1,
+  "preview_data":false
   },
-  "TabBar": [
-    {
-      "layout": "home",
-      "icon": "home",
-      "pos": 100,
-      "fontFamily": "CupertinoIcons",
-      "key": "p1q235ba14"
-    },
-    {
-      "pos": 200,
-      "layout": "category",
-      "icon": "rectangle_grid_1x2",
-      "fontFamily": "CupertinoIcons",
-      "categoryLayout": "card",
-      "key": "hwu0rkrizt",
-      "remapCategories": [
-        {
-          "category": "gid://shopify/Collection/446745674033",
-          "name": "Features",
-          "image": "https://cdn.shopify.com/s/files/1/0331/5230/3239/collections/fashion-PN7FSF5_350x500.jpg?v=1581920391"
-        },
-        {
-          "parent": "gid://shopify/Collection/446745674033",
-          "category": "gid://shopify/Collection/446745739569",
-          "name": "Bags"
-        },
-        {
-          "parent": "gid://shopify/Collection/446745674033",
-          "category": "gid://shopify/Collection/446745641265",
-          "name": "Clothing"
-        },
-        {
-          "parent": "gid://shopify/Collection/446745674033",
-          "category": "gid://shopify/Collection/446745936177",
-          "name": "Shoes"
-        },
-        {
-          "category": "gid://shopify/Collection/446745444657",
-          "name": "Women"
-        },
-        {
-          "category": "gid://shopify/Collection/444187279665",
-          "name": "Man"
-        }
-      ]
-    },
-    {
-      "key": "2reihs4qzc",
-      "icon": "search",
-      "layout": "search",
-      "fontFamily": "CupertinoIcons",
-      "pos": 300,
-      "size": 24
-    },
-    {
-      "pos": 400,
-      "icon": "bag",
-      "layout": "cart",
-      "categoryLayout": "cart",
-      "key": "a2xts0oou6",
-      "fontFamily": "CupertinoIcons"
-    },
-    {
-      "layout": "profile",
-      "icon": "assets/icons/tabs/icon-user.png",
-      "showChat": true,
-      "showBackground": true,
-      "styleItem": "listTile",
-      "settingStyle": "normal"
-    }
-  ],
-  "searchSuggestion": [
-    "Here are some suggestions:",
-    "Print",
-    "T-Shirt",
-    "Jersey",
-    "Hoodie"
-  ],
-  "OnBoarding": {
-    "data": [
-      {
-        "title": "Welcome to FluxStore",
-        "image": "assets/images/fogg-delivery-1.png",
-        "desc": "Fluxstore is on the way to serve you. ",
-        "background": "#FFF3F2"
-      },
-      {
-        "title": "Connect Surrounding World",
-        "image": "assets/images/fogg-uploading-1.png",
-        "desc": "See all things happening around you just by a click in your phone. Fast, convenient and clean.",
-        "background": "#F2FFFC"
-      },
-      {
-        "title": "Let's Get Started",
-        "image": "fogg-order-completed.png",
-        "desc": "Waiting no more, let's see what we get!",
-        "background": "#F9F2FF"
-      }
-    ]
+  {
+  "type":"icon",
+  "wrap":false,
+  "horizontalItem":false,
+  "columns":null,
+  "layout":"category",
+  "marginLeft":15.0,
+  "marginRight":15.0,
+  "marginTop":10.0,
+  "marginBottom":10.0,
+  "separateWidth":24.0,
+  "shadow":null,
+  "gradientStyle":false,
+  "items":[
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff3cc2bf",
+  "ff3cc2bf"],
+  "image":"https://user-images.githubusercontent.com/1459805/62820029-2e679f00-bb88-11e9-80de-fdf115cfd942.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489234727217",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
   },
-  "PrivacyPoliciesPageUrlOrId": "https://policies.google.com/?hl=en"
-}
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff3e6ab5",
+  "ff3e6ab5"],
+  "image":"https://trello.com/1/cards/60a62a9bca5053572a669dee/attachments/60a62abccf14cb63646c1706/previews/60a62abdcf14cb63646c1728/download/ic_dress.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489532916017",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
+  },
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff53a2cc",
+  "ff53a2cc"],
+  "image":"https://trello.com/1/cards/60a62a9bca5053572a669dee/attachments/60a62ac38749561a23fed73c/previews/60a62ac38749561a23fed76d/download/ic_shorts.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489533145393",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
+  },
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff53688a",
+  "ff53688a"],
+  "image":"https://trello.com/1/cards/60a62a9bca5053572a669dee/attachments/60a62ac27eb3b0027e045f80/previews/60a62ac27eb3b0027e045fee/download/ic_shoes.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489534095665",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
+  },
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff43506a",
+  "ff43506a"],
+  "image":"https://trello.com/1/cards/60a62a9bca5053572a669dee/attachments/60a62ac568d4170599acd4ca/previews/60a62ac568d4170599acd4dd/download/ic_tie.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489533342001",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
+  },
+  {
+  "originalColor":false,
+  "backgroundColor":null,
+  "title":null,
+  "name":null,
+  "keepDefaultTitle":false,
+  "colors":["ff12b58c",
+  "ff12b58c"],
+  "image":"https://trello.com/1/cards/60a62a9bca5053572a669dee/attachments/60a62ac048c3790a65a5f75f/previews/60a62ac048c3790a65a5f763/download/ic_panties.png",
+  "tag":null,
+  "category":"gid://shopify/Collection/489533899057",
+  "showDescription":true,
+  "productType":false,
+  "orderby":null,
+  "order":null,
+  "onSale":false,
+  "featured":false,
+  "showText":null,
+  "description":null
+  }
+  ],
+  "enableBackground":true,
+  "paddingX":0.0,
+  "paddingY":0.0,
+  "marginX":0.0,
+  "marginY":0.0,
+  "imageBoxFit":"cover",
+  "textAlignment":"topLeft",
+  "radius":50.0,
+  "spacing":12.0,
+  "imageSpacing":0.0,
+  "size":1.0,
+  "enableBorder":true,
+  "hideTitle":false,
+  "originalColor":false,
+  "noBackground":false,
+  "labelFontSize":14.0,
+  "fromVerticalProduct":null,
+  "preview_data":false
+  },
+  {
+  "layout":"bannerImage",
+  "isSlider":true,
+  "showNumber":false,
+  "design":"default",
+  "showBackGround":true,
+  "autoPlay":false,
+  "radius":2,
+  "items":[
+  {
+  "image":"https://user-images.githubusercontent.com/1459805/59846818-12672e80-938b-11e9-8184-5f7bfe66f1a2.png",
+  "padding":15,
+  "category":"gid://shopify/Collection/446745739569"
+  },
+  {
+  "image":"https://user-images.githubusercontent.com/1459805/60091575-1f12ca80-976f-11e9-962c-bdccff60d143.png",
+  "padding":15,
+  "category":"gid://shopify/Collection/446745739569"
+  },
+  {
+  "image":"https://user-images.githubusercontent.com/1459805/60091808-a19b8a00-976f-11e9-9cc7-576ca05c2442.png",
+  "padding":15,
+  "product":"Z2lkOi8vc2hvcGlmeS9Qcm9kdWN0LzQ2MjA1NTg2OTY1ODM%3D"
+  }
+  ],
+  "preview_data":false
+  },
+  {
+  "padding":0,
+  "enableParallax":false,
+  "enableBackground":false,
+  "isHorizontal":false,
+  "marginLeft":0,
+  "layout":"bannerImage",
+  "fit":"fitWidth",
+  "marginRight":0,
+  "parallaxImageRatio":1.2,
+  "marginBottom":0,
+  "radius":6,
+  "items":[
+  {
+  "image":"https://user-images.githubusercontent.com/1459805/59846823-12ffc500-938b-11e9-8d93-65ead3d6b1dd.png",
+  "padding":5,
+  "bannerWithProduct":false,
+  "showSubcategory":false,
+  "video":"",
+  "productLength":3,
+  "category":"gid://shopify/Collection/446745641265",
+  "defaultShowProduct":false,
+  "products":[]
+  },
+  {
+  "image":"https://user-images.githubusercontent.com/1459805/59846824-12ffc500-938b-11e9-8d5a-fc42cb1b7658.png",
+  "padding":5,
+  "featured":true,
+  "bannerWithProduct":false,
+  "showSubcategory":false,
+  "video":"",
+  "category":"gid://shopify/Collection/446745641265",
+  "productLength":3,
+  "defaultShowProduct":false,
+  "products":[]
+  }
+  ],
+  "marginTop":0,
+  "preview_data":false
+  },
+  {
+  "showCartIcon":true,
+  "imageBoxfit":"cover",
+  "showStockStatus":true,
+  "hideEmptyProductLayout":false,
+  "showCountDown":false,
+  "parallax":false,
+  "columns":3,
+  "hideStore":false,
+  "vPadding":2,
+  "showQuantity":false,
+  "showHeart":false,
+  "hMargin":6,
+  "parallaxImageRatio":1.2,
+  "showCartButtonWithQuantity":false,
+  "vMargin":0,
+  "showOnlyImage":false,
+  "onSale":false,
+  "image":"",
+  "showCategory":false,
+  "productListItemHeight":125,
+  "showCartIconColor":false,
+  "useSort":false,
+  "hPadding":6,
+  "hidePrice":false,
+  "rows":1,
+  "enableBottomAddToCart":true,
+  "layout":"threeColumn",
+  "enableRating":true,
+  "imageRatio":1.2,
+  "useCircularRadius":true,
+  "borderRadius":3,
+  "hideTitle":false,
+  "cardDesign":"card",
+  "backgroundRadius":10,
+  "isSnapping":true,
+  "showCartButton":false,
+  "name":"Woman Collections",
+  "cartIconRadius":9,
+  "enableAutoSliding":false,
+  "hideEmptyProductListRating":false,
+  "preview_data":false
+  },
+  {
+  "layout":"twoColumn",
+  "image":"",
+  "isSnapping":true,
+  "name":"Man Collections",
+  "preview_data":false
+  },
+  {
+  "layout":"staggered",
+  "name":"New Collections",
+  "limit":20,
+  "preview_data":false
+  }
+  ],
+  "Setting":{
+  "TabBarConfig":{
+  "enableOnTop":false,
+  "color":"ff1c1d21",
+  "radiusTopLeft":15.079123349164956,
+  "bottomBarStyle":"static",
+  "paddingRight":0,
+  "radiusTopRight":15.047170605431592,
+  "TabBarIndicator":{
+  "strokeWidth":0,
+  "color":"ff22262c",
+  "horizontalPadding":10.01247069941136,
+  "topRightRadius":9.138236789907289,
+  "tabPosition":"bottom",
+  "bottomRightRadius":8.866903346613203,
+  "bottomLeftRadius":9.173194264700902,
+  "topLeftRadius":9.266948361796246,
+  "paintingStyle":"fill",
+  "distanceFromCenter":0,
+  "radius":0,
+  "verticalPadding":0,
+  "height":0
+  },
+  "lazyLoading":false,
+  "showMinimize":false,
+  "marginRight":15.012519286150008,
+  "enableDivider":true,
+  "paddingBottom":10.006131677365229,
+  "indicatorStyle":"rectangular",
+  "enable":true,
+  "radiusBottomRight":15.034404981421897,
+  "iconSize":22.955647901669458,
+  "showFloatingClip":true,
+  "paddingTop":9.960136747221199,
+  "isSafeArea":false,
+  "TabBarFloating":{
+  "elevation":2,
+  "color":null,
+  "width":50,
+  "floatingType":"rectangle",
+  "location":null,
+  "isCoverMode":false,
+  "position":0,
+  "notchMargin":4,
+  "radius":50,
+  "height":50
+  },
+  "showFloating":false,
+  "colorActiveIcon":null,
+  "colorCart":"fffe2060",
+  "radiusBottomLeft":15.03100081501931,
+  "marginLeft":14.976930273759336,
+  "colorIcon":null,
+  "marginBottom":14.973564791065872,
+  "paddingLeft":0,
+  "marginTop":0
+  },
+  "FontFamily":"Inter",
+  "FontHeader":"Inter Tight",
+  "ProductListLayout":"list",
+  "StickyHeader":false
+  },
+  "TabBar":[
+  {
+  "layout":"home",
+  "fontFamily":"CupertinoIcons",
+  "fullscreen":false,
+  "pos":100,
+  "showOriginalColor":false,
+  "defaultTab":false,
+  "icon":"home"
+  },
+  {
+  "layout":"category",
+  "fontFamily":"CupertinoIcons",
+  "pos":200,
+  "icon":"rectangle_grid_1x2",
+  "categoryLayout":"card"
+  },
+  {
+  "layout":"search",
+  "fontFamily":"CupertinoIcons",
+  "size":24,
+  "pos":300,
+  "icon":"search"
+  },
+  {
+  "layout":"wishlist",
+  "icon":"bag",
+  "fontFamily":"CupertinoIcons",
+  "pos":400,
+  "defaultTab":false,
+  "fullscreen":false,
+  "showOriginalColor":false
+  },
+  {
+  "layout":"profile",
+  "fontFamily":"CupertinoIcons",
+  "pos":500,
+  "icon":"person"
+  }
+  ],
+  "AppBar":null,
+  "Drawer":null}
